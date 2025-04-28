@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Suhu Celsius ke Fahrenheit</title>
+    <link rel="stylesheet" href="CSS\style.css">
+</head>
+<body>
+    
+    <head></head>
+    <div class="container">
+        <h1>Konversi Suhu (ANGGA)</h1>
+        <P>Web ini di buat pada fundamental course dari revoU, Menghitung calcius ke fahrenheit menjadi lebih mudah dengan hadirnya web buatan angga dan di jamin AKURAT!!</P>
+        <label for="celsius">Celsius (°C):</label>
+        <input type="number" id="celsius" placeholder="Masukkan suhu Celsius">
+        
+        <div class="buttons">
+            <button class="bg1"onclick="convert()">Konversi</button>
+            <button class="bg2"onclick="resetForm()">Reset</button>
+            <button class="bg3"onclick="reverse()">Reverse</button>
+        </div>
+        
+
+        <label for="fahrenheit">Fahrenheit (°F):</label>
+        <input type="number" id="fahrenheit" placeholder="Hasil Fahrenheit" readonly>
+
+        <label for="calculation">Cara Kalkulasi:</label>
+        <textarea id="calculation" rows="3" readonly></textarea>
+        <footer>
+            <p>&copy; ANGGA 2025 semua Hak cipta dilindungi</p>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+
+   
+</body>
+</html>
