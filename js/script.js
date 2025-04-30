@@ -33,7 +33,7 @@ function reverse() {
 
     if (isNaN(fahrenheitValue)) {
         alert('Masukkan angka yang valid di Fahrenheit!');
-        return;
+        return; //jika input tidak valid, hentikan eksekusi
     }
 
     const celsiusValue = (fahrenheitValue - 32) * 5 / 9;
